@@ -1,0 +1,82 @@
+/* Add customised fonts */
+
+@font-face {
+    font-family: 'Forgotten Futurist Rg';
+    src: url('https://music.michaelzfreeman.org/fonts/ForgottenFuturistRg-Italic.woff2') format('woff2'),
+        url('https://music.michaelzfreeman.org/fonts/ForgottenFuturistRg-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Forgotten Futurist Rg';
+    src: url('https://music.michaelzfreeman.org/fonts/ForgottenFuturistRg-Bold.woff2') format('woff2'),
+        url('https://music.michaelzfreeman.org/fonts/ForgottenFuturistRg-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Forgotten Futurist Rg';
+    src: url('https://music.michaelzfreeman.org/fonts/ForgottenFuturistRg-BoldItalic.woff2') format('woff2'),
+        url('https://music.michaelzfreeman.org/fonts/ForgottenFuturistRg-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Forgotten Futurist Rg';
+    src: url('https://music.michaelzfreeman.org/fonts/ForgottenFuturistRg-Regular.woff2') format('woff2'),
+        url('https://music.michaelzfreeman.org/fonts/ForgottenFuturistRg-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.h-address:not(:empty) {
+	font-family: 'Forgotten Futurist Rg';
+    font-weight: bold;
+    font-style: normal;
+}
+
+.ml2 {
+	font-family: 'Forgotten Futurist Rg';
+    font-weight: bold;
+    font-style: normal;
+}
+
+.word {
+	font-family: 'Forgotten Futurist Rg';
+    font-weight: bold;
+    font-style: normal;
+	filter: url(#wavy);
+}
+
+a {
+	font-family: 'Forgotten Futurist Rg';
+    font-weight: bold;
+    font-style: normal;
+}
+
+.entry-header {
+	font-family: 'Forgotten Futurist Rg';
+    font-weight: bold;
+    font-style: normal;
+	filter: url(#wavy);
+}
+
+.entry-content {
+	font-family: 'Forgotten Futurist Rg';
+    font-weight: bold;
+    font-style: normal;
+	filter: url(#wavy);
+}
+
+/* Fix top 3D artist name size */
+
+.mzf-logo {
+	max-width: 100%;
+}
